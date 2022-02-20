@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . '/vendor/autoload.php';
+
 // автозагрузчик для домашки 1
 spl_autoload_register(function ($class) {
 
@@ -25,3 +26,6 @@ $post = new Post(
 );
 
 echo $post;
+
+//$user = new \App\models\User(1, 'John', 'Johansen');
+//echo $user;
