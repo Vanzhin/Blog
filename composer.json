@@ -1,0 +1,17 @@
+{
+    "name": "vanzhin/blog",
+    "autoload": {
+        "psr-4": {
+            "Vanzhin\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vanzhin",
+            "email": "nikolay.vanzhin@yandex.ru"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.19"
+    }
+}
